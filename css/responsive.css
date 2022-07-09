@@ -1,0 +1,282 @@
+/* notes on @media min-width: 
+1. min-width means {if screen size is more than...}
+2. when buidling responsive web page: 
+    >code works according to screen size, put smallest size on top
+    >start from smallest screen size
+    >test by dragging screen bigger, build next one when it breaks
+
+  */
+ 
+/* phone resolution */
+
+ @media (min-width: 360px) {
+    .about-image{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        margin-left: -10rem;
+        margin-top: -6rem;
+        overflow-x: hidden;
+    }
+
+    .about-introme-section > h1{
+       margin-top: 37rem;
+       margin-left: -30rem;
+       font-size: 1.5rem;
+       padding-right: 20rem;
+    }
+
+    .about-introme-section >.about-text{
+        /* margin-right: 15rem; */
+        margin-left: -30rem;
+        padding-right: 15rem;
+        font-size: 1.2rem;
+    }
+
+    .about-bigSection{
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+
+    .about-bigSection > ul{
+        columns: 1;
+        padding-right: 0rem;
+        font-size: 1.2rem;
+      }
+
+    .logo-container img{
+        position: absolute;
+        /* position:fixed; */
+        top: 1.5rem;
+        left: 2rem;
+        width: 10%;
+        height: auto;
+      }
+
+    .topnav{
+        position: absolute;
+    }
+}
+
+
+/* @media (min-width: 476px) {
+    .bigSection >.about-image{
+        width: 70%;
+        height: auto;
+    }
+
+    .bigSection > h1{
+       margin-top: 40rem;
+       margin-left: -30rem;
+    }
+
+    .bigSection >.about-text{
+        margin-right: 8rem;
+        margin-left: -30rem;
+    }
+
+    .logo-container img{
+       position: absolute;
+       top: 2rem;
+       left: 2rem;
+       width: 5%;
+       height: auto;
+     }
+
+    .topnav{
+       position: absolute;
+       top: 2rem;
+       right: 4rem;
+   }
+} */
+
+
+/* @media (min-width: 768px) {
+    .bigSection >.about-image{
+        width: 60%;
+        height: auto;
+    }
+
+    .bigSection > h1{
+       margin-top: 55rem;
+       margin-left: -34rem;
+    }
+
+    .bigSection >.about-text{
+        margin-right: 7rem;
+        margin-left: -34rem;
+    }
+
+    .logo-container img{
+       position: absolute;
+       position:fixed;
+       top: 2rem;
+       left: 2rem;
+       width: 5%;
+       height: auto;
+     }
+
+    .topnav{
+       position: absolute;
+       position:fixed;
+       top: 2rem;
+       right: 4rem;
+   }
+} */
+
+/* ipad pro resolution */
+
+@media (min-width: 1366px) {
+    .about-image{
+        width: 100%;
+        height: auto;
+        margin-top: 6rem;
+        position: static;
+        margin-left: -3rem;
+    }
+
+    .about-introme-section > h1{
+       margin-top: 25rem;
+       margin-left: -20rem;
+       font-size: 1.5rem;
+       padding-right: 20rem;
+    }
+
+    .about-introme-section >.about-text{
+        margin-right: 6rem;
+        margin-left: -20rem;
+        padding-right: 0rem;
+    }
+
+
+      .about-bigSection{
+        font-size: 1.1rem;
+        color: rgb(0, 148, 59);
+        margin-left: 38rem;
+        margin-top: -11rem;
+        padding-bottom: 5rem;
+      }
+      
+      .about-bigSection > ul{
+        font-size: 1rem;
+        line-height: 2rem;
+        color: black;
+        columns: 2;
+        /* padding: 1rem; */
+        margin-top: -1rem;
+        width: 30rem;
+      }
+
+    .logo-container img{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 4%;
+        height: auto;
+     }
+
+    .topnav{
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+   }
+}
+
+
+@media (min-width: 1366px) {
+    .about-image{
+        width: 100%;
+        height: auto;
+        margin-top: 6rem;
+        position: static;
+        margin-left: -3rem;
+    }
+
+    .about-introme-section > h1{
+       margin-top: 25rem;
+       margin-left: -20rem;
+       font-size: 1.5rem;
+       padding-right: 10rem;
+    }
+
+    .about-introme-section >.about-text{
+        margin-right: 6rem;
+        margin-left: -20rem;
+        padding-right: 0rem;
+    }
+
+
+      .about-bigSection{
+        font-size: 1.1rem;
+        color: rgb(0, 148, 59);
+        margin-left: 45rem;
+        margin-top: -21rem;
+        padding-bottom: 5rem;
+      }
+      
+      .about-bigSection > ul{
+        font-size: 1rem;
+        line-height: 2rem;
+        color: black;
+        columns: 2;
+        /* padding: 1rem; */
+        margin-top: -1rem;
+        width: 30rem;
+      }
+}
+
+/* high res 1920*1080 resolution */
+
+@media (min-width: 1728px) {
+    .bigSection >.about-image{
+        width: 100%;
+        height: auto;
+        /* margin-left: -8rem; */
+        margin-top: 1rem;
+        position: static;
+    }
+
+    .about-introme-section > h1{
+        margin-left: -20rem;
+        margin-top: 20rem;
+    }
+
+    .about-introme-section >.about-text{
+        margin-right: 20rem;
+        margin-left: -20rem;
+    }
+
+    .about-bigSection{
+        font-size: 1.1rem;
+        color: rgb(0, 148, 59);
+        margin-left: 50rem;
+        margin-top: -20rem;
+      }
+      
+      .about-bigSection > ul{
+        font-size: 1rem;
+        line-height: 2rem;
+        color: black;
+        columns: 2;
+        padding: 1rem;
+        padding-right: 20rem;
+        width: 50rem;
+      }
+
+
+    .logo-container img{
+        position: absolute;
+        position:fixed;
+        top: 2rem;
+        left: 2rem;
+        width: 4%;
+        height: auto;
+     }
+
+    .topnav{
+        position: absolute;
+        position:fixed;
+        top: 2rem;
+        right: 4rem;
+   }
+}
