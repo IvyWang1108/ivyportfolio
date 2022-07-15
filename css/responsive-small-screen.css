@@ -1,0 +1,257 @@
+/* notes on @media min-width: 
+1. min-width means {if screen size is more than...}
+2. when buidling responsive web page: 
+    >code works according to screen size, put smallest size on top
+    >start from smallest screen size
+    >test by dragging screen bigger, build next one when it breaks
+
+  */
+ 
+/* phone resolution */
+
+ @media (min-width: 360px) {
+    .about-image{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        margin-left: -10rem;
+        margin-top: -6rem;
+        overflow-x: hidden;
+    }
+
+    .about-introme-section > h1{
+       margin-top: 37rem;
+       margin-left: -30rem;
+       font-size: 1.5rem;
+       padding-right: 20rem;
+    }
+
+    .about-introme-section >.about-text{
+        /* margin-right: 15rem; */
+        margin-left: -30rem;
+        padding-right: 15rem;
+        font-size: 1.2rem;
+    }
+
+    .about-bigSection{
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+
+    .about-bigSection > ul{
+        columns: 1;
+        padding-right: 0rem;
+        font-size: 1.2rem;
+      }
+
+    .logo-container img{
+        position: absolute;
+        /* position:fixed; */
+        top: 1.5rem;
+        left: 2rem;
+        width: 10%;
+        height: auto;
+      }
+
+    .topnav{
+        position: absolute;
+    }
+
+    .main-intro > .intro-p{
+      margin-left: 8rem;
+      font-size: 0.8rem;
+      margin-right: 2rem;
+      padding-right: 1rem;
+      line-height: 1.4rem;
+    }
+
+    .main-intro > h1{
+      text-shadow: 1px 1px 1px rgb(0, 148, 59), 0 0 25px yellow, 0 0 5px yellow;
+      color: rgb(0, 148, 59);
+      margin-left: 8rem;
+      margin-top: 7rem;
+      font-size: 2rem;
+    }
+
+    .intro-note{
+      font-size: 0.7rem;
+      color: rgb(0, 148, 59);
+      margin-left: 8rem;
+      padding-right: 1rem;
+      line-height: 1.4rem;
+    }
+
+    .grid-item {
+      position: relative;
+      top: 5rem;
+      left: 8rem;
+      display: block;
+      width: 50%;
+      margin-bottom: 5rem;
+    }
+
+    .grid-item:hover .btn > h2{
+      display: none;
+    }
+  
+    .grid-item:hover .btn > p{
+      display: none;
+    }
+
+    .grid-item:hover .btn > .prj-forward{
+      display: none;
+    }
+
+    .btn:hover svg {
+      display: none;
+    }
+}
+
+
+/* @media (min-width: 476px) {
+    .bigSection >.about-image{
+        width: 70%;
+        height: auto;
+    }
+
+    .bigSection > h1{
+       margin-top: 40rem;
+       margin-left: -30rem;
+    }
+
+    .bigSection >.about-text{
+        margin-right: 8rem;
+        margin-left: -30rem;
+    }
+
+    .logo-container img{
+       position: absolute;
+       top: 2rem;
+       left: 2rem;
+       width: 5%;
+       height: auto;
+     }
+
+    .topnav{
+       position: absolute;
+       top: 2rem;
+       right: 4rem;
+   }
+} */
+
+
+/* @media (min-width: 768px) {
+    .bigSection >.about-image{
+        width: 60%;
+        height: auto;
+    }
+
+    .bigSection > h1{
+       margin-top: 55rem;
+       margin-left: -34rem;
+    }
+
+    .bigSection >.about-text{
+        margin-right: 7rem;
+        margin-left: -34rem;
+    }
+
+    .logo-container img{
+       position: absolute;
+       position:fixed;
+       top: 2rem;
+       left: 2rem;
+       width: 5%;
+       height: auto;
+     }
+
+    .topnav{
+       position: absolute;
+       position:fixed;
+       top: 2rem;
+       right: 4rem;
+   }
+} */
+
+
+
+
+
+
+
+/* desktop screensizes */
+
+/* @media (min-width: 1728px) {
+    .bigSection >.about-image{
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        position: static;
+    }
+
+    .about-introme-section > h1{
+        margin-left: -20rem;
+        margin-top: 20rem;
+    }
+
+    .about-introme-section >.about-text{
+        margin-right: 20rem;
+        margin-left: -20rem;
+    }
+
+    .about-bigSection{
+        font-size: 1.1rem;
+        color: rgb(0, 148, 59);
+        margin-left: 50rem;
+        margin-top: -20rem;
+      }
+      
+      .about-bigSection > ul{
+        font-size: 1rem;
+        line-height: 2rem;
+        color: black;
+        columns: 2;
+        padding: 1rem;
+        padding-right: 20rem;
+        width: 50rem;
+      }
+
+
+    .logo-container img{
+        position: absolute;
+        position:fixed;
+        top: 2rem;
+        left: 2rem;
+        width: 4%;
+        height: auto;
+     }
+
+    .topnav{
+        position: absolute;
+        position:fixed;
+        top: 2rem;
+        right: 4rem;
+   }
+
+   .main-intro > h1{
+    text-shadow: 1px 1px 1px rgb(0, 148, 59), 0 0 25px yellow, 0 0 5px yellow;
+    color: rgb(0, 148, 59);
+    margin-left: 15rem;
+    margin-top: 14rem;
+    font-size: 2rem;
+  }
+  
+  .main-intro > .intro-p{
+    margin-left: 15rem;
+    font-size: 1.5rem;
+    margin-right: 35rem;
+    padding-right: 16rem;
+  
+  }
+  
+  .intro-note{
+    font-size: 1rem;
+    color: rgb(0, 148, 59);
+    margin-left: 15rem;
+  }
+} */

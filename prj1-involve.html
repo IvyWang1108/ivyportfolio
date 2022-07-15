@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Ivy's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- <link href="css/main.css" rel="stylesheet"> -->
+  <!-- <link href="css/media-query-compressed.css" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> -->
+
+  <!-- <link rel="preload" href="css/non-critical.css" 
+		as="style" onload="this.onload=null;
+    this.rel='stylesheet'">
+    
+		<noscript><link rel="stylesheet" 
+      href="css/non-critical.css"></noscript>
+      
+      <script>(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=false}return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i+=1){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",true);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this));</script> -->
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">
+      <img class="logo-img" src="images/logo.png" alt="logo image" >
+      </a>
+  
+      
+            <!-- <a class="prj-link-1" href="index.html#jump">projects</a> -->
+                    <!-- <a href="about.html">about</a> -->
+                    <div class="prj-link">
+                    <a class="menu-bar" href="index.html#jump" data-replace="View all"><span>Projects</span></a>
+                 
+                    <a href="about.html" data-replace="Ivy &#128064"><span>About</span></a>
+                  </div>
+      </nav>
+  </header>
+
+<main>
+
+        <div class="banner">
+                <!-- <h2>involve</h2>
+                <p>a platform to connect volunteers in the community to non-profit organizations</p> -->
+        <img src="images/involve-cover.png" alt="project cover" class="img-grid-inside" >
+        </div>
+  
+        <div class="row">
+                <div class="bigSection">
+                <h2>Overview</h2>
+                <p>In a high level interface design class，me and my 4 other teammates made a versatile application that serves on both mobile phones and desktops. 
+                    The mobile version is designed for students to find local volunteer opportunities, specifically high school students from B.C. that need to complete their grad transitions in order to successfully graduate. 
+                    The desktop version is designed to help volunteer coordinators streamline the process of finding volunteers, organizing applications and managing documentations.    
+                    </p>
+                    <p class="prj-role">My Roles: User Test / Experience Design / Interface Design / Interaction Design</p>
+                    <p class="prj-role">Tools: Adobe XD / Figma</p>
+        </div>
+    </div>
+
+        <div class="row">
+                <div class="content-bigSection">
+                <h2>The Problem</h2>
+                <p class="content-large-image-beside">In Canada B.C., a minimum of 30 community volunteer hours are required for high school students to graduate. The processes of applying or registering for volunteer opportunities are long and inefficient. Many of our college interviewees mentioned that they either had difficulty with the application process or had lost track of the 30 hours.</p>  
+                    <p class="content-large-image-beside"> Meanwhile, volunteer coordinators are currently spending huge chunks of time on the management process of physical forms, emails, and excel sheets for volunteer documentations. This process is less efficient and not applicable to large scale events that require many volunteers.  
+                </p>
+            </div>
+            <div class="content-bigSection">
+                <img src="images/involve-application.jpg" alt="involve image of applications" class="img-grid-problem-section">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="content-bigSection">
+                <img src="images/involve-persona1.jpg" alt="involve volunteer persona" class="img-grid-user-section">
+                <img src="images/involve-persona2.jpg" alt="involve coordinator persona" class="img-grid-user-section">
+            </div>
+                <div class="content-bigSection">
+                <h2 class="content-title-image-left">Target Users</h2>
+                <p class="content-large-image-left">- High school students who need to complete their volunteer hours for graduation</p>
+                <p class="content-large-image-left">- Employees of local non-profit organizations who manage volunteers regularly</p>
+                     <h2 class="content-title-image-left-second">The Goal</h2>
+                     <p class="content-large-image-left">- To allow prospective volunteers to seek volunteer opportunities, apply for them, and keep track of any volunteered positions in addition to receiving any reference letters. <br> 
+                         - To allow coordinators to promote their volunteer opportunities and manage volunteers effectively and efficiently.
+                         </p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="content-bigSection">
+                <h2>My Roles and Responsibilities</h2>
+                <p class="content-large">During ideation, to understand the current way our audiences go through the series of getting their volunteer hours, I used a user journey map to highlight their pain points and identify where our team can intervene. 
+                    We then brainstormed on features that should be implemented to ease the problem.  Some “how might we" questions helped me to stay focus on the problems and increased the effectiveness of each solution that I came up with.       
+                     </p>
+
+                <p class="content-large">
+                    From wireframes to mockups, to make sure that our desktop and mobile interfaces had logical user interaction flows, I followed Jakob Nielsen's usability heuristics. Based on the usability principles, I tested to make sure that both of the platforms had consistent user interaction flows. When our team had different ideas for the application workflow, we conducted multiple rounds of AB tests to see how users would react and prefer. 
+                    The usability heuristics also guided my way when I was working on the final prototype for our mobile interface. I was able to improve on the consistency, flexibility, and more natural navigation for users. Additional  micro-interactions made the prototypes stand out, look more refined and visually appealing.  
+                </p>
+
+                <p class="content-large">
+                    Visit our project website for more details 
+                </p>
+
+                <p class="content-large">
+                    <button class="button button1"> <a class="view-project" target="_blank" href="http://www.sfu.ca/~gayany/iat334-p03/" >View Project Website </a> </button>
+                    <!-- <button class="button button1" onclick="myFunction()">View Project Website</button>
+                    <script>
+                        function myFunction() {
+                          location.replace("http://www.sfu.ca/~gayany/iat334-p03/")
+                        }
+                        </script> -->
+                </p>
+
+                <img src="images/involve-ABTest.png" alt="involve AB Test image" class="img-grid-ABTest-section">
+            </div>
+
+
+            <div class="content-bigSection">
+                <img src="images/involve-process1.jpg" alt="involve image of process1" class="img-grid-problem-section">
+                <img src="images/involve-process2.jpg" alt="involve image of process2" class="img-grid-problem-section">
+
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="content-bigSection">
+                <img src="images/involve-discover.gif" alt="involve progress page gif" class="gif-section-left"> 
+                <img src="images/involve-archive.gif" alt="involve message page gif" class="gif-section"> 
+                <img src="images/involve-apply.gif" alt="involve message page gif" class="gif-section"> 
+                <img src="images/involve-progress.gif" alt="involve progress page gif" class="gif-section-left"> 
+                <img src="images/involve-message.gif" alt="involve message page gif" class="gif-section"> 
+                <img src="images/involve-history.gif" alt="involve message page gif" class="gif-section"> 
+            </div>
+        </div> -->
+
+        <div class="row">
+          <div class="content-bigSection">
+          <h2>Project Takeaways</h2>
+          <p class="content-conclusion">Involve was my first full project where I was able to practice both user experience and interface design skills. I was able to learn and apply a few different design methods such as generating personas, making user journey maps, experiencing stages of ideation, and applying the usability heuristics.  </p>
+                  <p class="content-conclusion"> The most significant thing that I’ve learned was the importance of iteration. Iteration is essential during the process of building interfaces. We were able to refine and discuss improvements during the multiple phases of iterations that we had. During each iteration, we were able to discuss and improve on parts of the interfaces that we have never thought of during earlier meetings, and I think that was quite memorable and valuable. 
+          </p>
+      </div>
+  </div>
+
+
+
+ <!-- Slideshow container -->
+ <div class="hztl-slider-container last-section">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="slider first-slider">
+    <!-- <div class="numbertext">1 / 6</div> -->
+    <img src="images/involve-discover.gif" alt="involve progress page gif" class="gif-section"> 
+    <div class="text">
+      <p>Quickly scan through all available volunteer positions and check out details or apply if interested.</p> 
+    </div>
+  </div>
+
+  <div class="slider">
+    <!-- <div class="numbertext">2 / 6</div> -->
+    <img src="images/involve-archive.gif" alt="involve message page gif" class="gif-section"> 
+    <div class="text">
+      <p>Home page tracks each volunteer's current registered positions; status of the application; any saved volunteer positions and more.</p>
+    </div>
+  </div>
+
+  <div class="slider">
+    <!-- <div class="numbertext">3 / 6</div> -->
+    <img src="images/involve-apply.gif" alt="involve message page gif" class="gif-section"> 
+    <div class="text">
+    <p>The application form shows available positions. Simply follow the application form, easily fill out information, and directly submit through the app.</p>
+    </div>
+  </div>
+
+  <div class="slider">
+      <!-- <div class="numbertext">4 / 6</div> -->
+      <img src="images/involve-progress.gif" alt="involve progress page gif" class="gif-section"> 
+      <div class="text">
+       <p>Volunteers can easily keep track of their volunteer hours, view past volunteer experiences and set personal goals.</p> 
+      </div>
+    </div>
+
+    <div class="slider">
+      <!-- <div class="numbertext">5 / 6</div> -->
+      <img src="images/involve-message.gif" alt="involve message page gif" class="gif-section"> 
+      <div class="text">
+        <p>The message feature allows volunteers and coordinators to always stay in touch, accept or decline volunteer offers and form chat rooms with other volunteers. </p>
+      </div>
+    </div>
+
+    <div class="slider">
+      <!-- <div class="numbertext">6 / 6</div> -->
+      <img src="images/involve-history.gif" alt="involve message page gif" class="gif-section"> 
+      <div class="text">
+        <p>The history feature serves as an archive. It allows volunteers to come back and check their previous volunteer experiences, as long as reference letters. </p>
+      </div>
+    </div>
+
+</div>
+
+<!-- ---------------------------------------- -->
+<!-- other project list -->
+
+<div class="otherprj-container">
+
+  <div class="btn-project" style="text-align: center" >
+    <h2 class="other-project-heading">Other Exciting Projects</h2>
+    <ul>
+      <li class="project-dot" onclick="currentSlide(1)"><label for="folder-btn1">AutoMetrics</label></li>
+      <!-- <span onclick="currentSlide(1)"></span> -->
+      <li class="project-dot" onclick="currentSlide(2)"><label for="folder-btn2">Keydo</label></li>
+      <!-- <span onclick="currentSlide(2)"></span> -->
+      <li class="project-dot" onclick="currentSlide(3)"><label for="folder-btn3">E-tour</label></li>
+      <!-- <span onclick="currentSlide(3)"></span> -->
+      <li class="project-dot" onclick="currentSlide(4)"><label for="folder-btn3">Planner</label></li>
+      <!-- <span onclick="currentSlide(4)"></span> -->
+      <li class="project-dot" onclick="currentSlide(5)"><label for="folder-btn3">rE-collect</label></li>
+      <!-- <span onclick="currentSlide(5)"></span> -->
+      <li class="project-dot" onclick="currentSlide(6)"><label for="folder-btn3">Speculative Design</label></li>
+      <!-- <span onclick="currentSlide(6)"></span> -->
+    </ul>
+  </div>
+  
+    <div class="mySlides fade">
+      <img class="mySlides-img" src="images/AutoMetrics-cover.png" >
+      <a class="hint-text" href="workprj1-autometrics.html">View Project</a>
+      <!-- <div class="hint-to-project">
+       
+      </div> -->
+    </div>
+  
+    <div class="mySlides fade">
+      <img class="mySlides-img" src="images/keydo.png" >
+      <a class="hint-text" href="prj2-keydo.html">View Project</a>
+    </div>
+  
+    <div class="mySlides fade">
+     <img class="mySlides-img" src="images/etour.png">
+     <a class="hint-text" href="prj3-etour.html">View Project</a>
+   </div>
+
+   <div class="mySlides fade">
+    <img class="mySlides-img" src="images/planner.png">
+    <a class="hint-text" href="prj4-planner.html">View Project</a>
+    
+  </div>
+
+  <div class="mySlides fade">
+    <img class="mySlides-img" src="images/recollect.png">
+    <a class="hint-text" href="prj5-recollect.html">View Project</a>
+  </div>
+
+  <div class="mySlides fade">
+    <img class="mySlides-img" src="images/extra.png">
+    <a class="hint-text" href="prj6-speculative.html">View Project</a>
+  </div>
+  
+  </div>
+          
+        
+         <!-- end of other project list -->
+              
+  
+<div class="page-wrapper"></div>
+</main>
+
+<footer>
+  <div class="footer-welcome">
+    <h3>Nice to meet you</h3>
+  </div>
+
+<div class="footer-row">
+
+<div class="footer-column">
+    <div class="footer-info">
+           <h3 class="footer-title">My other accounts</h3>
+           <ul>
+            <li class="footer-list-first">
+           <a class="footer-link-first" target="_blank" href="https://www.linkedin.com/in/ivywang1108/" >
+              <!-- <img class="footer-icon" src="images/ins.png" alt="instagram icon" style="height: 40px; width: 40px;"> -->
+              LinkedIn/Ivy Wang
+            </a>
+            </li>
+
+            <li class="footer-list-second">
+            <a class="footer-link-second" target="_blank" href="https://www.instagram.com/eyeweewhy96/"> 
+              <!-- <img class="footer-icon" src="images/utube.png" alt="youtube icon" style="height: 40px; width: 40px;"> -->
+              Instagram/eyeweewhy96
+            </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer-column">
+    <div class="footer-contact"> 
+        <h3 class="footer-title">Contact me</h3>
+        <ul>
+            <li class="footer-list-email">
+        <p><br>wangivy1108@gmail.com</p>
+            </li>
+    </ul>
+        <!-- <p>wangivyw@sfu.ca</p> -->
+        </div>
+ </div>
+
+</div>
+    
+        <div class="right-reserved">
+            <p>with joy &#169; 2018-2022</p>
+          </div>
+      
+    
+      </footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><span>Back to Top</span></button> 
+  <!-- <script src="js/script.js"></script> -->
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

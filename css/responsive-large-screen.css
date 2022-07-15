@@ -1,0 +1,19 @@
+@media (min-width: 1728px) {
+    .about-bigSection{
+        font-size: 1.1rem;
+        color: rgb(0, 148, 59);
+        margin-left: 54rem;
+        margin-top: -20rem;
+        margin-bottom: 5rem;
+      }
+      
+      .about-bigSection > ul{
+        font-size: 1rem;
+        line-height: 2rem;
+        color: black;
+        columns: 2;
+        padding: 1rem;
+        padding-right: 20rem;
+        /* width: 50rem; */
+      }
+}
