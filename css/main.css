@@ -1911,8 +1911,12 @@
   
   .button1:hover {
     /* color: hotpink; */
-    background-color: rgba(255, 255, 0, 0.383);
-    border: 2px solid rgba(255, 255, 0, 0.383);
+    background-color: #00943B;
+    border: 2px solid #00943B;
+  }
+
+  .button1:hover .view-project  {
+    color: antiquewhite;
   }
   
   .view-project{
