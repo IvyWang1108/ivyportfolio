@@ -1903,9 +1903,9 @@
   }
   
   .button1 {
-    background-color: white; 
+    background-color: #0F141C; 
     /* color: black;  */
-    border: 2px solid #4CAF50;
+    border: 2px solid #2765B5;
     border-radius: 10px; /* Rounded corners */
   }
   
@@ -1917,7 +1917,7 @@
   
   .view-project{
     text-decoration: none;
-    color: rgb(0, 148, 59);
+    color: #2765B5;
    
   }
   
