@@ -1914,15 +1914,14 @@
     background-color: #00943B;
     border: 2px solid #00943B;
   }
-
-  .button1:hover .view-project  {
-    color: antiquewhite;
-  }
   
   .view-project{
     text-decoration: none;
     color: #2765B5;
-   
+  }
+
+  .button1:hover .view-project  {
+    color: antiquewhite;
   }
   
   /* } */
