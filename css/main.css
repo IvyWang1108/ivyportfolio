@@ -1902,14 +1902,14 @@
     cursor: pointer;
   }
   
-  .button1 {
+  .button-am {
     background-color: #0F141C; 
     /* color: black;  */
     border: 2px solid #2765B5;
     border-radius: 10px; /* Rounded corners */
   }
   
-  .button1:hover {
+  .button-am:hover {
     /* color: hotpink; */
     background-color: #00943B;
     border: 2px solid #00943B;
@@ -1920,7 +1920,27 @@
     color: #2765B5;
   }
 
-  .button1:hover .view-project  {
+  .button-am:hover .view-project  {
+    color: antiquewhite;
+  }
+
+  .view-involve{
+    text-decoration: none;
+    color: #2765B5;
+  }
+
+  .button-involve{
+    background-color: white; 
+    border: 2px solid #2765B5;
+    border-radius: 10px;
+  }
+
+  .button-involve:hover{
+    background-color: #00943B;
+    border: 2px solid #00943B;
+  }
+
+  .button-involve:hover .view-involve{
     color: antiquewhite;
   }
   
