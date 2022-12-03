@@ -261,6 +261,13 @@
     color: antiquewhite;
   }
 
+  .dark-content-highlight{
+    color: antiquewhite;
+    background-color: rgba(55, 171, 47, 0.25);
+    padding: 1rem;
+    /* width: 100%; */
+  }
+
   .dark-content > .paragraph-break{
     display: block;
     margin-bottom: 2rem;
@@ -555,7 +562,7 @@
   /* ^^^End of project list style */
   
   body{
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     width: auto;
   
