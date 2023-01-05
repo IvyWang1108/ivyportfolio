@@ -1034,13 +1034,14 @@
   }
 
 
-  .content-challenge-img2 > img{
+  .content-img1{
     display: block;
-    width: 50%;
+    width: 60%;
     height: auto;
-    margin-top: 1rem;
-    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-left: 15rem;
   }
+
   
   .prj-role{
     color:rgb(0, 148, 59); /* Text color */
