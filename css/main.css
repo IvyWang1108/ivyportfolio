@@ -591,7 +591,7 @@
   /* ^^^End of project list style */
   
   body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.8rem;
     width: auto;
   
@@ -968,9 +968,17 @@
     display: flex;
     margin-top: 10rem;
   }
+
+  .AMRow{
+    margin-top: 2rem;
+  }
   
   .autometrics-last-row{
     margin-top: -2rem;
+  }
+
+  .AMSection > .glowing-title{
+    color: #b3b3b3;
   }
   
   .bigSection{
@@ -997,7 +1005,7 @@
   
   .glowing-title{
     text-shadow: 1px 1px 1px #2765B5, 0 0 25px #2765B5, 0 0 5px #2765B5;
-    color: #37AB2F;
+    color: #bfbfbf;
   }
 
   .content-challenge{
