@@ -260,7 +260,7 @@
   .bigSection-highlight{
     margin-left: 0rem;
     width: 100%;
-    background-color: rgba(55, 171, 47, 0.25);
+    background-color: rgba(55, 171, 47, 0.156);
   }
   
   .dark-content{
@@ -970,7 +970,7 @@
   }
 
   .AMRow{
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
   
   .autometrics-last-row{
