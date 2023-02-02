@@ -266,15 +266,30 @@
   .column-card {
     float: left;
     width: 25%;
-    padding: 2rem 1rem;
+    /* padding: 3rem 1rem; */
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
     margin-left: 5rem;
+  }
+
+  .goal-card > h2{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.8rem;
+    color: antiquewhite;
+  }
+
+  .goal-card > p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: rgba(250, 235, 215, 0.7);
   }
   
   /* Remove extra left and right margins, due to padding */
-  .card-highlight-section {
-    /* margin: 0 -5px; */
+  /* .card-highlight-section {
+    margin: 0 -5px;
     background-color: #0F141C;
-  }
+  } */
   
   /* Clear floats after the columns */
   .card-highlight-section:after {
@@ -288,7 +303,7 @@
     box-shadow: 0.2rem 0.1rem 1rem 0 rgba(237, 219, 219, 0.613);
     padding: 2rem 1rem;
     text-align: center;
-    background-color: #ef8c22;
+    background-color: none;
   }
   
   .dark-content{
@@ -347,15 +362,19 @@
     text-align: center;
     color: antiquewhite;
     font-size: 2rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
   }
 
   .highlight-unordered-list{
     font-family: 'Source Serif Pro', serif;
-    color: #00943B;
+    color: rgba(250, 235, 215, 0.7);
     font-size: 1.8rem;
     padding-left: 16.5rem;
     padding-right: 25rem;
+  }
+
+  .list-title{
+    color: #00943B;
   }
 
   .list-item{
@@ -1039,7 +1058,7 @@
 
   .AMSection > .glowing-title{
     color: #b3b3b3;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .bigSection{
@@ -1077,6 +1096,9 @@
     /* float:left; */
   }
 
+  .content-challenge > .glowing-title{
+    font-size: 2rem;
+  }
 
   .content-challenge> h2{
     font-size: 3.2rem;
