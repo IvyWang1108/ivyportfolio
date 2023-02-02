@@ -263,47 +263,58 @@
     background-color: rgba(55, 171, 47, 0.156);
   }
 
-  .box-divider{
+  .column-card {
     float: left;
-    width: 33.33%;
-    padding: 4rem;
-    /* height: 300px; */
+    width: 25%;
+    padding: 2rem 1rem;
+    margin-left: 5rem;
   }
-
-  .box-divider > p{
-    font-size: 1.2rem;
-    color: antiquewhite;
+  
+  /* Remove extra left and right margins, due to padding */
+  .card-highlight-section {
+    /* margin: 0 -5px; */
+    background-color: #0F141C;
   }
-
-  .box-divider > h2{
-    font-size: 1.5rem;
-    color: #00943B;
-  }
-
-  .bigSection-highlight:after {
+  
+  /* Clear floats after the columns */
+  .card-highlight-section:after {
     content: "";
     display: table;
     clear: both;
   }
+
+  /* Style the counter cards */
+  .goal-card {
+    box-shadow: 0.2rem 0.1rem 1rem 0 rgba(237, 219, 219, 0.613);
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #ef8c22;
+  }
   
   .dark-content{
-    color: antiquewhite;
+    color: rgba(250, 235, 215, 0.7);
   }
 
 .AMSection > .dark-content{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
   .dark-content-highlight{
     color: antiquewhite;
+    font-family: 'Source Serif Pro', serif;
     /* background-color: rgba(55, 171, 47, 0.25); */
     padding: 1rem;
+    line-height: 2.2rem;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     padding-left: 15rem;
     padding-right: 20rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .overview-content{
+    padding-bottom: 1rem;
   }
 
   /* .special-highlight{
@@ -311,8 +322,11 @@
   } */
 
   .highlight-content{
-    font-size: 1.2rem;
-    padding-left: 17rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(250, 235, 215, 0.7);
+    font-size: 1.3rem;
+    padding-left: 16.5rem;
+    padding-right: 25rem;
     padding-top: 0rem;
   }
 
@@ -322,18 +336,26 @@
   }
 
   .highlight-title{
-    color: #ef8c22;
+    color: antiquewhite;
     font-size: 2rem;
     padding-bottom: 0.5rem;
     padding-right: 30rem;
     line-height: 2.8rem;
   }
 
+  .centered-highlight-title{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+
   .highlight-unordered-list{
+    font-family: 'Source Serif Pro', serif;
     color: #00943B;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-left: 16.5rem;
-    padding-right: 30rem;
+    padding-right: 25rem;
   }
 
   .list-item{
@@ -1017,6 +1039,7 @@
 
   .AMSection > .glowing-title{
     color: #b3b3b3;
+    font-size: 2.5rem;
   }
   
   .bigSection{
@@ -1044,6 +1067,7 @@
   .glowing-title{
     text-shadow: 1px 1px 1px #2765B5, 0 0 25px #2765B5, 0 0 5px #2765B5;
     color: #bfbfbf;
+    margin-right: 10rem;
   }
 
   .content-challenge{
@@ -1529,7 +1553,12 @@
     margin-left: 15rem;
     margin-right: 5rem;
   }
-  
+
+  .bigSection-highlight > .content-large{
+    font-size: 1.2rem;
+    margin-left: 15rem;
+    margin-right: 5rem;
+  }  
   
   .content-bigSection > .etour-oppurtunity-content{
     font-size: 1.2rem;
@@ -1998,23 +2027,24 @@
   }
   
   .button-am {
-    background-color: #0F141C; 
+    background-color: rgba(55, 171, 47, 0);
     /* color: black;  */
     border: 2px solid #2765B5;
     border-radius: 10px; /* Rounded corners */
+    margin-bottom: 2rem;
   }
   
   .button-am:hover {
     /* color: hotpink; */
-    background-color: #00943B;
-    border: 2px solid #00943B;
-  }
-  
-  .view-project{
-    text-decoration: none;
-    color: #2765B5;
+    background-color: #2765B5;
+    border: 2px solid #2765B5;
   }
 
+  .view-project{
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  
   .button-am:hover .view-project  {
     color: antiquewhite;
   }
