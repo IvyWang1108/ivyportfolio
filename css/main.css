@@ -311,7 +311,7 @@
   }
 
 .AMSection > .dark-content{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
   .dark-content-highlight{
@@ -354,15 +354,16 @@
     color: antiquewhite;
     font-size: 2rem;
     padding-bottom: 0.5rem;
-    padding-right: 30rem;
+    padding-right: 10rem;
     line-height: 2.8rem;
   }
 
   .centered-highlight-title{
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
     font-size: 2rem;
     padding-bottom: 0rem;
     padding-top: 3rem;
+    text-align: center;
 
   }
 
