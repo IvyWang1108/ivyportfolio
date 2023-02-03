@@ -359,10 +359,11 @@
   }
 
   .centered-highlight-title{
-    text-align: center;
-    color: antiquewhite;
+    margin-left: 15rem;
     font-size: 2rem;
     padding-bottom: 0rem;
+    padding-top: 3rem;
+
   }
 
   .highlight-unordered-list{
