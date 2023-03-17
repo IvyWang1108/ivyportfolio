@@ -358,12 +358,22 @@
     line-height: 2.8rem;
   }
 
+  .content-challenge > .highlight-title{
+    color: antiquewhite;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    padding-right: 10rem;
+    padding-left: 0rem;
+    line-height: 2.8rem;
+  }
+
   .centered-highlight-title{
     /* margin-left: 15rem; */
     font-size: 2rem;
     padding-bottom: 0rem;
     padding-top: 3rem;
-    text-align: center;
+    margin-left: 16.5rem;
+    text-align: left;
 
   }
 
