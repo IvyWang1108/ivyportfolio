@@ -1155,9 +1155,13 @@
 
   .content-img3{
     display: block;
-    width: 100%;
+    width: 65%;
     height: auto;
     margin-top: 2rem;
+  }
+
+  .cmptv-caption{
+    color: white;
   }
   
   .prj-role{
