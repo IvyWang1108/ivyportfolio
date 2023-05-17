@@ -265,12 +265,36 @@
 
   .column-card {
     float: left;
-    width: 25%;
+    width: 50%;
     /* padding: 3rem 1rem; */
     padding-left: 1rem;
-    padding-top: 1.5rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
-    margin-left: 5rem;
+    padding-right: 5rem;
+    /* margin-left: 5rem; */
+  }
+
+  /* Style the counter cards */
+  .goal-card {
+    box-shadow: 0.2rem 0.1rem 1rem 0 rgba(237, 219, 219, 0.613);
+    padding: 1rem 2rem;
+    text-align: left;
+    background-color: none;
+  }
+
+  .goal-title{
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: none;
+  }
+
+  .goal-title > p{
+    font-size: 2rem;
+    margin-top: 34rem;
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+    margin-left: 8rem;
+    text-align: left;
   }
 
   .goal-card > h2{
@@ -296,14 +320,6 @@
     content: "";
     display: table;
     clear: both;
-  }
-
-  /* Style the counter cards */
-  .goal-card {
-    box-shadow: 0.2rem 0.1rem 1rem 0 rgba(237, 219, 219, 0.613);
-    padding: 2rem 1rem;
-    text-align: center;
-    background-color: none;
   }
   
   .dark-content{
