@@ -1153,12 +1153,23 @@
     /* margin-right: -3rem; */
   }
 
+  .content-adimg{
+    display: block;
+    width: 110%;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: -4rem;
+    /* margin-left: 15rem; */
+  }
+
 
   .content-img1{
     display: block;
     width: 80%;
     height: auto;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    margin-left: -4rem;
     /* margin-left: 15rem; */
   }
 
