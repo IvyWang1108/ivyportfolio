@@ -290,7 +290,8 @@
 
   .goal-title > p{
     font-size: 2rem;
-    margin-top: 34rem;
+    /* margin-top: 34rem; */
+    margin-top: 2rem;
     padding-left: 0rem;
     padding-bottom: 0rem;
     margin-left: 8rem;
