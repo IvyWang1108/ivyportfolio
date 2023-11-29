@@ -263,6 +263,19 @@
     background-color: rgba(55, 171, 47, 0.156);
   }
 
+  .bigSection-highlight > .glowing-title{
+    font-size: 2rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .bigSection-highlight > .dark-content-highlight{
+    padding-bottom: 2rem;
+    margin-top: 0rem;
+  }
+
   .column-card {
     float: left;
     width: 50%;
@@ -322,13 +335,15 @@
     display: table;
     clear: both;
   }
-  
+
   .dark-content{
     color: rgba(250, 235, 215, 0.7);
   }
 
 .AMSection > .dark-content{
-  font-size: 1.2rem;
+  color: rgba(250, 235, 215, 0.7);
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
   .dark-content-highlight{
@@ -354,7 +369,7 @@
   } */
 
   .highlight-content{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgba(250, 235, 215, 0.7);
     font-size: 1.3rem;
     padding-left: 16.5rem;
@@ -427,7 +442,8 @@
   border-style: none;
   border-radius: 0;
   margin-left: 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
 }
 
 @keyframes highlight {
@@ -1129,12 +1145,20 @@
     font-size: 2rem;
   }
 
+  .content-challenge > .dark-content{
+    margin-top: -3rem;
+  }
+
+  .content-challenge > .iso-para{
+    margin-top: 6rem;
+  }
+
   .content-challenge> h2{
     font-size: 3.2rem;
   }
 
   .content-challenge > p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-right: 25rem;
   }
 
