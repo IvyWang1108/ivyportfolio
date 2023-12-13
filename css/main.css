@@ -1214,6 +1214,15 @@
     margin-bottom: 2rem;
   }
 
+  .content-img4{
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-top: 1rem; */
+    margin-bottom: 4rem;
+    margin-left: -4rem;
+  }
+
   .cmptv-caption{
     color: white;
   }
