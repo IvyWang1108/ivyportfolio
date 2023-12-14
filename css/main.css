@@ -355,7 +355,7 @@
     width: 100%;
     font-size: 1.8rem;
     padding-left: 15rem;
-    padding-right: 20rem;
+    padding-right: 24rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
@@ -373,7 +373,7 @@
     color: rgba(250, 235, 215, 0.7);
     font-size: 1.3rem;
     padding-left: 16.5rem;
-    padding-right: 25rem;
+    padding-right: 27rem;
     padding-top: 0rem;
   }
 
@@ -1127,7 +1127,7 @@
   .bigSection > p{
     /* margin-left: 7rem; */
     font-size: 1.2rem;
-    margin-right: 15rem;
+    margin-right: 17rem;
     line-height: 2rem;
     /* margin-right: 35rem;
     background-color: bisque; */
@@ -1136,7 +1136,7 @@
   .glowing-title{
     text-shadow: 1px 1px 1px #2765B5, 0 0 25px #2765B5, 0 0 5px #2765B5;
     color: #bfbfbf;
-    margin-right: 12rem;
+    margin-right: 16rem;
   }
 
   .content-challenge{
@@ -1155,7 +1155,7 @@
   }
 
   .content-challenge > .iso-para{
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
   .content-challenge> h2{
