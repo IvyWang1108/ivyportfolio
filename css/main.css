@@ -451,6 +451,10 @@
    to {background-position: -100% 0;}
 }
 
+.highlight-nda.active{
+  font-size: 1.8rem;
+}
+
   mark {
     /* -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
             animation: 1.5s highlight 1.5s 1 normal forwards; */
