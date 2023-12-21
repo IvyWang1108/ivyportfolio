@@ -7,6 +7,9 @@
   
   <title>Ivy's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Kanit:wght@500&display=swap" rel="stylesheet">
   <!-- <link href="css/main.css" rel="stylesheet"> -->
   <!-- <link href="css/media-query-compressed.css" rel="stylesheet"> -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> -->
@@ -73,7 +76,7 @@
                 <div class="bigSection AMSection">
                 <h2 class="glowing-title">My role in solving the problem</h2>
                 <!-- <h3 class="problem-sub">Crowded Layout + Vague Information</h3> -->
-                <p class="dark-content">I was the <mark class="highlight">sole user experience and interface designer</mark> that reimagined how can we <mark class="highlight">help users monitor welding process efficiently, and alert users at the right time before defects happen to prevent rework cost?</mark>
+                <p class="dark-content">I was the <mark class="highlight">sole user experience and interface designer</mark> that reimagined how can we <mark class="highlight">help users monitor welding process more efficiently, and alert users at the right time before defects happen to prevent rework cost?</mark>
                 </p>  
                     <!-- <p class="content-large-image-beside"> The challenge for me was to first understand how each section worked in the backend and what information needed to be visually represented on the dashboard front end to assist users with monitoring. On the other hand, how should I organize the dashboard, how should relatable sections be gathered together, how to make important messages stand out so that users can easily remember where to find each section, understand and keep track of variables in each section.  
                 </p> -->
@@ -92,9 +95,9 @@
 
         <div class="row AMRow">
                 <div class="bigSection AMSection">
-                <h2 class="glowing-title">Starting with understanding the problem</h2> 
+                <h2 class="glowing-title">Understanding the problem</h2> 
                 <!-- <h3 class="problem-sub">The sole UX UI Designer / Video Producer / Brochure Designer / Website Designer</h3> -->
-                <p class="dark-content">I started with asking some users about their experiences with monitoring and navigating from the product.
+                <p class="dark-content">I started by asking some users about their experiences with using the dashboard to monitor weld production.
               <br>I organized users' feedbacks into 4 sections:</p>
                      <!-- <h2 class="glowing-title">The 2 Users:</h2> -->
                      <!-- <table>
@@ -116,14 +119,14 @@
         </div>
 
         <div class="bigSection-highlight">
-          <p class="dark-content-highlight highlight-title">Users’ feedbacks uncovered crucial problems:</p>
+          <p class="dark-content-highlight">Users’ feedbacks uncovered crucial problems:</p>
           <ul class="highlight-unordered-list list-title">
-            <li>The main features did not resonate with users as we had anticipated, users were using the software at its&nbsp;minimal</li>
+            <li>The main features did not resonate with users as we had anticipated, users were using the dashboard at its&nbsp;minimal</li>
           </ul>
-          <p class="dark-content-highlight highlight-content">Users were not relying on machine learning features such as proactive monitoring and early defect notification, users were only using basic features like tracking project status and monitoring standard weld data.</p>
+          <p class="dark-content-highlight highlight-content">Users were not relying on machine learning features such as proactive monitoring and early defect notification. Instead, users were only using basic features like tracking project status and monitoring standard weld data.</p>
 
           <ul class="highlight-unordered-list list-title">
-            <li>The Proactive Monitoring System was frequently misunderstood</li>
+            <li>The Proactive Monitoring Feature was misunderstood</li>
           </ul>
           <p class="dark-content-highlight highlight-content">The original progress bars that monitored each parameter failed to effectively convey the predictions, causing users to unexpectedly encounter ambiguous errors in real-time rather than proactively receiving notifications about potential issues in&nbsp;advance.</p>
 
@@ -136,6 +139,11 @@
             <li>Defects were too vague giving users hard time to investigate</li>
           </ul>
           <p class="dark-content-highlight highlight-content">Defects that manifest on the Anomaly table are too vague, making it challenging for users to effectively investigate potential&nbsp;issues.</p>
+
+          <p class="dark-content-highlight">
+            Users feel lost looking at the monitor because of unorganized sections having data constantly changing all over the screen. 
+            Users are not relying on machine learning predictions, so in order to really help users catch early defects, the redesigned interface needs to include predictive notifications along with supportive abnormal data.
+          </p>
         </div>
 
         <!-- <div class="row">
@@ -151,12 +159,6 @@
 
                 </div>
         </div> -->
-
-        <div class="bigSection-highlight">
-          <h2 class="glowing-title">Summarizing the Biggest Problem</h2>
-          <p class="dark-content-highlight highlight-title">Users feel lost looking at the monitor because of unorganized sections having data constantly changing all over the screen. 
-            Users are not relying on machine learning predictions, so in order to really help users catch early defects, the redesigned interface needs to include predictive notifications along with supportive abnormal data.</p>
-        </div>
          
          <!-- Left and right images -->
           <!-- <div class="content-challenge-img-group">
@@ -174,7 +176,7 @@
             <br> Another challenge was to re-organize all sections according to their purpose and interrelationships enabling users to conveniently examine associated sections side by side for effective troubleshooting when a defect happens.          
           </p>
           <h2 class="glowing-title">
-            I identified “How Might We” (HMW) opportunities by reframing user feedback, enabling me to establish attainable goals and ensure sustained motivation             
+            I framed “How Might We” (HMW) opportunities from user feedback to establish attainable goals and set a clear design direction             
           </h2>
           <img class="content-img2" src="images/AM-ProblemReframe.png" alt="Images of AutoMetrics Affinity Diagram">
         </div>
@@ -207,7 +209,9 @@
 
         <div class="row AMRow">
           <div class="content-challenge">
-          <p class="dark-content-highlight highlight-title">I used the Empathy Map to understand users behaviours while using the product, and helped me make decisions on what goals to achieve on the new version of the monitor.</p>
+            <h2 class="glowing-title">
+              I used the Empathy Map to organize users behaviours, and to immerse myself into users' feelings and thoughts while using the dashboard.
+            </h2>  
               <img class="content-img3" src="images/AM-EmpathyMap.png" alt="Image of Empathy Map">
           </div>
         </div>
@@ -218,7 +222,7 @@
 
           <div class="column-card">
             <div class="goal-title">
-              <p class="dark-content-highlight highlight-title">Based on user feelings and behaviours from my Empathy Map, I focused on 3 High-Level Goals:</p>
+              <p class="dark-content-highlight highlight-goals-title">Based on how users were using the dashbaord, and user needs, I focused on 3 High Level&nbsp;Goals:</p>
             </div>
           </div>
 
@@ -276,7 +280,7 @@
           <div class="row AMRow">
             <div class="bigSection AMSection">
             <p class="dark-content">
-              Conducting a Competitive Analysis assisted me in comprehending industry trends, identifying elements to incorporate into my design, and recognizing aspects to avoid. 
+              Conducting a Competitive Analysis assisted me in comprehending industry trends, identifying elements to incorporate into my design, and recognizing aspects to&nbsp;avoid. 
             </p>
             <img class="content-img3" src="images/AM-CmptvAnalysis.png" alt="Images of AutoMetrics Affinity Diagram">
             <figcaption class="cmptv-caption">This image showcases part of my Competitive Analysis which is what I learned that could be considered within my own design</figcaption>
@@ -296,9 +300,9 @@
           </div>
 
           <div class="bigSection-highlight">
-            <p class="dark-content-highlight highlight-title">2 things that I focused on while drafting out new layouts: </p>
+            <p class="dark-content-highlight">2 things that I focused on while brainstorming new layouts: </p>
             <ul class="highlight-unordered-list">
-              <li>Prioritizing on proactive monitoring.</li>
+              <li>How can I make proactive monitoring stand out?</li>
             </ul>
   
             <ul class="highlight-unordered-list">
@@ -311,7 +315,7 @@
             <div class="content-challenge">
               <h2 class="glowing-title">How can I design a new layout that concentrates on the relativness between sections while also allowing users to easily navigate to different areas... </h2>
               <p class="dark-content iso-para">
-                <mark class="highlight">Through conducting a competitive analysis, I was inspired by the effectiveness of separating content into multiple pages with tabs as a means to help users easily focus on important information.</mark>
+              <mark class="highlight">Through conducting a competitive analysis, I was inspired by the effectiveness of separating content into multiple pages with tabs as a means to help users easily focus on important information.</mark>
                 <br>
                 Establishing a well-thought-out layout was crucial to ensure the cohesive grouping of relevant components based on their function. This approach aimed to enable users to effortlessly access adjacent components when defects occur, facilitating efficient troubleshooting. 
                 <br>
