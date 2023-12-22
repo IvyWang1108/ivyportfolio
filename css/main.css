@@ -240,11 +240,12 @@
     font-size: 3.2rem;
     /* text-shadow: 1px 1px 1px #2765B5, 0 0 25px #2765B5, 0 0 5px #2765B5; */
     color: #102D5C; 
+    margin-top: 4rem;
 
   }
   
   .section-highlight > p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 15rem;
     line-height: 2rem;
     margin-left: 15rem;
@@ -342,8 +343,8 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: antiquewhite;
-    padding: 1rem;
-    line-height: 2.2rem;
+    /* padding: 1rem; */
+    line-height: 3rem;
     width: 100%;
     font-size: 1.5rem;
     padding-left: 15rem;
@@ -351,6 +352,10 @@
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     margin-top: 0rem;
+  }
+
+  .list-speciaL-title{
+    font-size: 2rem;
   }
 
   .overview-content{
@@ -419,6 +424,7 @@
     font-size: 1.5rem;
     padding-left: 16.5rem;
     padding-right: 20rem;
+    line-height: 2.2rem;
   }
 
   .list-title{
@@ -456,7 +462,7 @@
 }
 
 .highlight-nda.active{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
   mark {
@@ -1164,6 +1170,7 @@
     font-weight: 400;
     color: rgba(250, 235, 215, 0.7);
     font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 
   .content-challenge > .iso-para{
@@ -1175,7 +1182,7 @@
   }
 
   .content-challenge > p{
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     padding-right: 25rem;
   }
 
@@ -1193,6 +1200,15 @@
     margin-top: 1rem;
     margin-left: -7rem;
     /* margin-right: -3rem; */
+  }
+
+  .process-sub-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    line-height: 3rem;
+    width: 100%;
   }
 
   .content-adimg{
